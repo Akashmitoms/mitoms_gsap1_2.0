@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  .hom1 {
+    padding: 1%;
+    height: 100vh;
+  }
+  .hom2 {
+    padding: 1%;
+  }
+  .hom3 {
+    padding:2% 3% 2% 7%;
+    height: 100vh;
+  }
