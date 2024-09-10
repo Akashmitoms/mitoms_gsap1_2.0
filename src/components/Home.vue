@@ -1,471 +1,638 @@
 <template>
-  <section class="hom1">
-    <div class="sec1">
-      <TheHeader />
-      <div class="sec1_con">
-        <h1>INNOVATING IDEAS</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, gravida morbi
-          lacus pulvinar libero litora elementum urna
-        </p>
-        <h2>EXPLORE NOW</h2>
-      </div>
+  <div>
+    <div class="body">
+      <header id="header" class="header">
+        <div class="header-middle">
+          <div class="runic-menu-wapper"></div>
+          <div class="header-middle-inner">
+            <div class="header-logo">
+              <router-link to="/">
+                <div class="logo_style">
+                  <img
+                    src="/assets/images/Logo-01001.png"
+                    width="50px"
+                    class="logo-white"
+                  /><span>Mitoms</span>
+                </div>
+              </router-link>
+            </div>
+            <div class="header-nav">
+              <div class="box-header-nav">
+                <ul
+                  id="menu-primary-menu"
+                  class="clone-main-menu runic-clone-mobile-menu main-menu"
+                >
+                  <li class="menu-item">
+                    <router-link to="/community">Community</router-link>
+                  </li>
+                  <li class="menu-item">
+                    <router-link to="/explore">Explore</router-link>
+                  </li>
+                  <li class="menu-item">
+                    <router-link to="/features">Features</router-link>
+                  </li>
+                  <li class="menu-item">
+                    <router-link to="/blog">Blog</router-link>
+                  </li>
+                  <li class="menu-item">
+                    <router-link to="/about">About</router-link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-control">
+              <div class="block-menu-bar">
+                <a class="menu-bar menu-toggle" href="#">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </div>
+              <router-link to="/contact" class="button-primary header-button"
+                >Contact</router-link
+              >
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="site-main">
+        <div class="banner-section">
+          <div class="main-banner">
+            <div class="banner-wrapper">
+              <div class="text-slide">
+                <h1 class="heading-wrap">Innovating Ideas</h1>
+                <p class="sub-heading">
+                  Mitoms Technologies Private Limited is your trusted partner in
+                  innovation, delivering cutting-edge solutions to drive digital
+                  transformation.
+                </p>
+                <a href="explore.html" class="button-arrow">
+                  <span class="arrow-text">Explore now</span>
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-section">
+          <div class="three-box-content">
+            <div class="box-wrapper">
+              <div class="box">
+                <div class="box-icon">
+                  <div class="icon-inner">
+                    <img src="/assets/images/digital-printing.png" alt="img" />
+                  </div>
+                </div>
+                <div class="box-text">
+                  <h3 class="box-title">Web Development</h3>
+                  <!-- <a href="#" class="box-link">Learn more</a> -->
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-icon">
+                  <div class="icon-inner">
+                    <img src="/assets/images/graphics-design.png" alt="img" />
+                  </div>
+                </div>
+                <div class="box-text">
+                  <h3 class="box-title">graphics design</h3>
+                  <!-- <a href="#" class="box-link">Learn more</a> -->
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-icon">
+                  <div class="icon-inner">
+                    <img src="/assets/images/social-media.png" alt="img" />
+                  </div>
+                </div>
+                <div class="box-text">
+                  <h3 class="box-title">SEO and Google Ads</h3>
+                  <!-- <a href="#" class="box-link">Learn more</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="problem-section">
+          <div class="problem-container bg-dark">
+            <div class="container">
+              <div class="text-opacity text-big">Why choose us</div>
+              <div class="text-run text-big">
+                Over 10 years of expertise in custom IT solutions for impactful
+                digital transformation.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel-section">
+          <div class="panel-wrap">
+            <div class="panel-section-content bg-light">
+              <div class="panel-category">Technology</div>
+              <div class="panel-content">
+                <h3 class="panel-title">Web & App Development</h3>
+                <div class="panel-desc">
+                  Creating responsive, secure, and scalable websites that ensure
+                  your online presence is strong and optimized for conversions.
+                </div>
+                <a href="#" class="button-arrow">
+                  <span class="arrow-text">Learn more</span>
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="panel-wrap">
+            <div class="panel-section-content bg-dark">
+              <div class="panel-category">Branding</div>
+              <div class="panel-content">
+                <h3 class="panel-title">Graphics Design</h3>
+                <div class="panel-desc">
+                  Delivering visually compelling designs that enhance your brand
+                  identity and appeal to your target audience.
+                </div>
+                <a href="#" class="button-arrow">
+                  <span class="arrow-text">Learn more</span>
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="panel-wrap">
+            <div class="panel-section-content bg-orange">
+              <div class="panel-category">Marketing</div>
+              <div class="panel-content">
+                <h3 class="panel-title">SEO and Google Ads</h3>
+                <div class="panel-desc">
+                  Boosting your website’s visibility through search engine
+                  optimization and targeted Google Ads campaigns that drive
+                  traffic and lead generation.
+                </div>
+                <a href="#" class="button-arrow">
+                  <span class="arrow-text">Learn more</span>
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee-section">
+          <div class="marquee-content bg-dark">
+            <div class="marquee-wrap marquee-text">
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="participate-section">
+          <div class="participate-container">
+            <div class="participate-heading">
+              <div class="bg-light participate-padding">
+                <div class="text-opacity text-dark">Our Portfolio</div>
+                <div class="text-run text-dark">Creative Portfolio</div>
+              </div>
+            </div>
+            <div class="tabs-section">
+              <div class="tabs-menu tabs-sticky s-tabs-menu">
+                <div class="tabs-transform">
+                  <a href="#tab1" class="tab-link s-current">
+                    <span class="tabs-width"></span>
+                    <span class="tabs-border"></span>
+                    <span>Graphic</span>
+                  </a>
+                  <a href="#tab2" class="tab-link">
+                    <span>Digital</span>
+                  </a>
+                  <a href="#tab3" class="tab-link">
+                    <span>Media</span>
+                  </a>
+                </div>
+              </div>
+              <div class="s-tab-content">
+                <div id="tab1" class="s-tab-pane s-tab-active">
+                  <div class="tabs-container tabs-pin first">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">01</div>
+                          <div class="tabs-category">Graphic</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Logo – Identity</h3>
+                          <div class="tabs-desc">
+                            Lorem ipsum dolor sit amet consectetur adipiscing
+                            elit nascetur curae senectus, dui arcu eu convallis
+                            fringilla primis tincidunt neque ac dictum
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image11.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container tabs-pin">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">02</div>
+                          <div class="tabs-category">Graphic</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Business & Advertising</h3>
+                          <div class="tabs-desc">
+                            Curae risus sociis ultricies scelerisque libero
+                            malesuada primis, ligula aptent morbi enim nisi
+                            aenean blandit eu, placerat feugiat sagittis
+                            volutpat
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image12.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">03</div>
+                          <div class="tabs-category">Web & App</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Web & App</h3>
+                          <div class="tabs-desc">
+                            Laoreet urna quis torquent tortor blandit auctor nam
+                            rhoncus ut fames, suscipit turpis vestibulum sem vel
+                            habitant lectus duis sagittis netus
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image13.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tab2" class="s-tab-pane">
+                  <div class="tabs-container tabs-pin first">
+                    <div class="tabs-content clearfix first">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">01</div>
+                          <div class="tabs-category">Digital</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">print on demand</h3>
+                          <div class="tabs-desc">
+                            Laoreet urna quis torquent tortor blandit auctor nam
+                            rhoncus ut fames, suscipit turpis vestibulum sem vel
+                            habitant lectus duis sagittis netus
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image21.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container tabs-pin">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">02</div>
+                          <div class="tabs-category">Digital</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">cost effective short runs</h3>
+                          <div class="tabs-desc">
+                            Lorem ipsum dolor sit amet consectetur adipiscing
+                            elit nascetur curae senectus, dui arcu eu convallis
+                            fringilla primis tincidunt neque ac dictum
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image22.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">03</div>
+                          <div class="tabs-category">Digital</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">fast turnarounds</h3>
+                          <div class="tabs-desc">
+                            Curae risus sociis ultricies scelerisque libero
+                            malesuada primis, ligula aptent morbi enim nisi
+                            aenean blandit eu, placerat feugiat sagittis
+                            volutpat
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image23.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tab3" class="s-tab-pane">
+                  <div class="tabs-container tabs-pin first">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">01</div>
+                          <div class="tabs-category">Media</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Social Commerce</h3>
+                          <div class="tabs-desc">
+                            Curae risus sociis ultricies scelerisque libero
+                            malesuada primis, ligula aptent morbi enim nisi
+                            aenean blandit eu, placerat feugiat sagittis
+                            volutpat
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image31.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container tabs-pin">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">02</div>
+                          <div class="tabs-category">Media</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Social Community</h3>
+                          <div class="tabs-desc">
+                            Laoreet urna quis torquent tortor blandit auctor nam
+                            rhoncus ut fames, suscipit turpis vestibulum sem vel
+                            habitant lectus duis sagittis netus
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image32.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tabs-container">
+                    <div class="tabs-content clearfix">
+                      <div class="tabs-info col-md-6 col-sm-12">
+                        <div class="tabs-top">
+                          <div class="tabs-number">03</div>
+                          <div class="tabs-category">Media</div>
+                        </div>
+                        <div class="tabs-bottom">
+                          <h3 class="tabs-title">Social Publishing</h3>
+                          <div class="tabs-desc">
+                            Lorem ipsum dolor sit amet consectetur adipiscing
+                            elit nascetur curae senectus, dui arcu eu convallis
+                            fringilla primis tincidunt neque ac dictum
+                          </div>
+                          <a href="#" class="button-arrow">
+                            <span class="arrow-text">Learn more</span>
+                            <span class="arrow-icon"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs-image col-md-6 col-sm-12">
+                        <img
+                          alt="img"
+                          src="/assets/images/image33.jpg"
+                          class="tabs-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="world-section">
+          <div class="world-inner bg-light">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="text-run text-left mobile-center">
+                  Explore the World of Mitoms
+                </div>
+                <div class="text-desc text-left mobile-center">
+                  Explore Mitoms' work in web, software, and mobile development, and see how we've helped businesses succeed.
+                </div>
+                <a href="#" class="button-arrow">
+                  <span class="arrow-text">Learn more</span>
+                  <span class="arrow-icon"></span>
+                </a>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <div class="swiper-container swiper-slider world-slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide world-item">
+                      <div class="world-box">
+                        <div class="box-image">
+                          <img src="/assets/images/world1.jpg" alt="img" />
+                        </div>
+                        <div class="world-content">
+                          <h4 class="world-title">Project Name: Sourcing Desk</h4>
+                          <div class="world-desc">
+                            <i>Domain: Human Resource</i> <br>
+                            Sourcing Desk integrates Laravel and Vue.js with Inertia.js for a streamlined, 
+                            efficient HR software solution.
+                          </div>
+                        </div>
+                        <a class="world-detail-link" href="#"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide world-item">
+                      <div class="world-box">
+                        <div class="box-image">
+                          <img src="/assets/images/world2.jpg" alt="img" />
+                        </div>
+                        <div class="world-content">
+                          <h4 class="world-title">Nullam rhoncu</h4>
+                          <div class="world-desc">
+                            Enim penatibus venenatis ligula iaculis interdum
+                            risus lacinia, potenti curabitur urna turpis nec
+                            tempus nulla
+                          </div>
+                        </div>
+                        <a class="world-detail-link" href="#"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide world-item">
+                      <div class="world-box">
+                        <div class="box-image">
+                          <img src="/assets/images/world3.jpg" alt="img" />
+                        </div>
+                        <div class="world-content">
+                          <h4 class="world-title">Taciti rutrum</h4>
+                          <div class="world-desc">
+                            Justo dui massa fusce metus nunc libero rhoncus
+                            torquent, iaculis fringilla ante aenean est
+                            vestibulum ornare.
+                          </div>
+                        </div>
+                        <a class="world-detail-link" href="#"></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide world-item">
+                      <div class="world-box">
+                        <div class="box-image">
+                          <img src="/assets/images/world4.jpg" alt="img" />
+                        </div>
+                        <div class="world-content">
+                          <h4 class="world-title">Habitant eros</h4>
+                          <div class="world-desc">
+                            Nascetur auctor molestie gravida natoque turpis
+                            posuere, vivamus iaculis velit pharetra ad vulputate
+                            vel tempor.
+                          </div>
+                        </div>
+                        <a class="world-detail-link" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="zoom-section">
+          <div class="zoom-content bg-dark">
+            <div class="zoom-container">
+              <div class="text-opacity text-big">Our Office</div>
+              <div class="text-run text-big">
+                Lorem ipsum dolor sio malesuada.
+              </div>
+            </div>
+            <div class="zoom-wrap">
+              <div class="zoom-top">
+                <div class="zoom-triangle"></div>
+              </div>
+              <div class="zoom-bottom"></div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-  </section>
-  <section class="hom2">
-    <div class="sec2">
-      <div class="sec2a">
-        <div>
-          <img src="/image/digital-printing.png" alt="" />
-        </div>
-        <div>
-          <h2>Digital Printing</h2>
-          <p><a href="#">LEARN MORE</a></p>
-        </div>
-      </div>
-      <div class="sec2b">
-        <div>
-          <img src="/image/graphics-design.png" alt="" />
-        </div>
-        <div>
-          <h2>Graphics Design</h2>
-          <p><a href="#">LEARN MORE</a></p>
-        </div>
-      </div>
-      <div class="sec2c">
-        <div>
-          <img src="/image/social-media.png" alt="" />
-        </div>
-        <div>
-          <h2>Social Media</h2>
-          <p><a href="#">LEARN MORE</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="sec3">
-    <h2>WHY CHOOSE US</h2>
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipiscing elit molestie urna,
-      bibendum vitae feugiat quam cubilia nec enim nisl sagittis habitasse.
-    </h1>
   </div>
-  <section class="hom1">
-    <div class="sec4">
-      <h3>MARKETING</h3>
-      <h1>
-        IDENTITY <br />
-        DEVELOPMENT
-      </h1>
-      <p>
-        Magna enim lobortis laoreet id cras ad tincidunt aliquam, quisque
-        torquent posuere facilisis mus nisi velit, mattis vehicula sociis nullam
-        penatibus eros nunc.
-      </p>
-      <h2>LEARN MORE</h2>
-    </div>
-  </section>
-  <section class="hom1">
-    <div class="sec5">
-      <h3>BRANDING</h3>
-      <h1>
-        MARKET RESEARCH <br />
-        AND ANALYSIS
-      </h1>
-      <p>
-        Massa senectus aptent facilisis hendrerit accumsan et, felis nam
-        venenatis tincidunt suspendisse mattis, donec rhoncus vivamus magnis
-        morbi.
-      </p>
-      <h2>LEARN MORE</h2>
-    </div>
-  </section>
-  <section class="hom1">
-    <div class="sec6">
-      <h3>MARKETING</h3>
-      <h1>
-        REPUTATION <br />
-        MANAGEMENT
-      </h1>
-      <p>
-        Imperdiet ullamcorper varius platea curae etiam tincidunt dapibus, erat
-        feugiat inceptos netus morbi volutpat fusce natoque, mauris class
-        molestie risus at mi.
-      </p>
-      <h2>LEARN MORE</h2>
-    </div>
-  </section>
-  <section class="hom1">
-    <div class="sec7">
-      <h1>DREAM . CREATE</h1>
-    </div>
-  </section>
-  <section class="hom2">
-    <div class="sec8">
-      <h2>OUR PORTFOLIO</h2>
-      <h1>CREATIVE PORTFOLIO</h1>
-      <div class="sec8_1">
-        <h3>GRAPHIC</h3>
-        <h3>DIGITAL</h3>
-        <h3>MEDIA</h3>
-      </div>
-    </div>
-  </section>
-  <section class="hom3">
-    <div class="sec8a">
-      <div class="sec8a1">
-        <span id="sp1"><b>01</b> <h2>GRAPHIC</h2></span>
-        <h1>LOGO–IDENTITY</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nascetur curae senectus, 
-          dui arcu eu convallis fringilla primis tincidunt neque ac dictum</p>
-          <h3>LEARN MORE</h3>
-      </div>
-      <div class="sec8a2"><img src="/image/image11.jpg" alt=""></div>
-    </div>
-  </section>
-  <section class="hom3">
-    <div class="sec8a">
-      <div class="sec8a1">
-        <span id="sp1"><b>02</b> <h2>GRAPHIC</h2></span>
-        <h1>BUSINESS & ADVERTISING</h1>
-        <p>Curae risus sociis ultricies scelerisque libero malesuada primis, 
-          ligula aptent morbi enim nisi aenean blandit eu, placerat feugiat sagittis volutpat</p>
-          <h3>LEARN MORE</h3>
-      </div>
-      <div class="sec8a2"><img src="/image/image12.jpg" alt=""></div>
-    </div>
-  </section>
-  <section class="hom3">
-    <div class="sec8a">
-      <div class="sec8a1">
-        <span id="sp1"><b>03</b> <h2>WEB & APP</h2></span>
-        <h1>WEB & APP</h1>
-        <p>Laoreet urna quis torquent tortor blandit auctor nam rhoncus ut fames, 
-          suscipit turpis vestibulum sem vel habitant lectus duis sagittis netus</p>
-          <h3>LEARN MORE</h3>
-      </div>
-      <div class="sec8a2"><img src="/image/image13.jpg" alt=""></div>
-    </div>
-  </section>
-  <section class="hom3">
-  <div class="sec9">
-    <div class="sec9a">
-      <h1>DISCOVERY THE WORLD</h1>
-      <p>Feugiat hendrerit cubilia curae ultricies vivamus nisl quisque viverra, 
-        praesent faucibus.</p>
-      <h3>LEARN MORE</h3>
-    </div>
-    <div class="sec9b">
-      <img src="/image/world1.jpg" alt="">
-      <img src="/image/world2.jpg" alt="">
-      <img src="/image/world3.jpg" alt="">
-    </div>
-  </div>
-</section>
-<!-- <section class="hom1">
-  <img src="/image/zoom-image.jpg" alt="" style="object-fit: contain; width: 100%;">
-</section> -->
 </template>
 
 <script>
-import TheHeader from "./TheHeader.vue";
-
+import { initJQueryFunctions } from '@/assets/js/functions.js'; // Adjust the path
+ 
 export default {
-  name: "Home",
-  components: {
-    TheHeader,
+  name: 'Home',
+ 
+  mounted() {
+    // Initialize jQuery on component mount
+    this.initJQuery();
   },
+ 
+  beforeRouteUpdate(to, from, next) {
+    // Re-initialize jQuery functions when the route changes
+    this.initJQuery();
+    next();
+  },
+ 
+  methods: {
+    initJQuery() {
+      initJQueryFunctions();  // Call the function that initializes jQuery functions
+    }
+  }
 };
 </script>
 
 <style scoped>
-.sec1 {
-  background-image: url(/image/hero.jpg);
-  border-radius: 1.5rem;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  padding: 1%;
-}
-.sec1_con {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin: 10%;
-}
-.sec1 h1 {
-  color: white;
-  font-size: 5rem;
-  font-weight: 700;
-  text-align: center;
-}
-.sec1 p {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-align: center;
-  padding: 0 15%;
-}
-.sec1 h2 {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 700;
-  padding: 1%;
-}
-.sec2 {
-  margin: 1%;
-  display: flex;
-  align-items: center;
-}
-.sec2a,
-.sec2b,
-.sec2c {
-  width: 33.33%;
-  display: flex;
-  gap: 2%;
-  justify-content: center;
-}
-.sec2a a,
-.sec2b a,
-.sec2c a {
-  color: lightgray;
-  font-size: 0.9rem;
-}
-.sec2a img,
-.sec2b img,
-.sec2c img {
-  width: 70%;
-  padding: 1rem;
-  background-color: #eeeeee;
-  border-radius: 50%;
-}
-.sec2b,
-.sec2c {
-  border-left: 1px solid lightgray;
-}
-.sec3 {
-  background-color: #1d2a34;
-  margin: 1%;
-  border-radius: 1.5rem;
-  padding: 10%;
-}
-.sec3 h2 {
-  color: white;
-  font-size: 1rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 2rem;
-  opacity: 0.7;
-}
-.sec3 h1 {
-  color: white;
-  font-size: 5rem;
-  font-weight: 1400;
-  text-align: center;
-}
-.sec4,
-.sec5,
-.sec6 {
-  margin: 1%;
-  height: 100%;
-  padding: 7%;
-  border-radius: 1.5rem;
-}
-.sec4 h3,
-.sec5 h3,
-.sec6 h3 {
-  color: #1d2a34;
-  font-size: 1.5rem;
-  font-weight: 700;
-  opacity: 0.5;
-}
-
-.sec5 h3,
-.sec6 h3{
-  color: white;
-}
-
-.sec4 h1,
-.sec5 h1,
-.sec6 h1 {
-  color: #1d2a34;
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  line-height: 1em;
-  margin: 1rem 0;
-}
-.sec5 h1,
-.sec6 h1 {
-  color: white;
-}
-
-.sec4 p,
-.sec5 p,
-.sec6 p {
-  color: #1d2a34;
-  font-size: 1.2rem;
-  font-weight: 500;
-  opacity: 0.7;
-  padding-right: 30%;
-  margin: 1.5rem 0;
-}
-.sec5 p,
-.sec6 p {
-  color: white;
-}
-.sec4 h2,
-.sec5 h2,
-.sec6 h2 {
-  color: #1d2a34;
-  font-size: 1rem;
-  font-weight: 700;
-}
-.sec5 h2,
-.sec6 h2 {
-  color: white;
-}
-.sec5 {
-  background-color: #1d2a34;
-  color: white;
-}
-.sec6 {
-  background-color: #f96227;
-  color: white;
-}
-.sec7{
-  background-color: #1d2a34;
-  color: white;
-  height: 100%;
-  border-radius:1.5rem;
-}
-.sec7 h1{
-  font-size: 10rem;
-  font-weight: 700;
-  text-align: center;
-  padding: 7%;
-}
-.sec8{
-  margin-top: 3%;
- display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-.sec8 h2{
-  color: #1d2a34;
-  font-size: 1rem;
-  font-weight: 700;
-  opacity: 0.5;
-}
-.sec8 h1{
-  color: #1d2a34;
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  line-height: 1em;
-  margin: 1rem 0;
-}
-.sec8_1{
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  padding: 1rem 2rem;
-  border: 1px solid lightgray;
-  border-radius: 20rem;
-}
-.sec8_1 h3{
-  color: #1d2a34;
-  font-size: 1rem;
-  font-weight: 700;
-  opacity: 0.7;
-}
-.sec8_1 :nth-child(2){
-  border-left: 2px solid lightgray;
-  border-right: 2px solid lightgray;
-  padding: 0 1.5rem;
-}
-.sec8a{
-  display: flex;
-}
-.sec8a1, .sec8a2{
-  width: 50%;
-  height: 100%;
-}
-.sec8a1{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 5% 0;
-}
-.sec8a1 h1{
-  color: #1d2a34;
-  font-size: 3rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  line-height: 1em;
-  margin: 1rem 0;
-}
-.sec8a2 img{
-  width: 100%;
-  border-radius: 1.5rem;
-  height: 95vh;
-  object-fit: cover;
-}
-#sp1{
+.logo_style {
   display: flex;
   gap: 1rem;
-  margin-bottom: 12%;
 }
-#sp1 b{
-  font-size: 1rem;
-  font-weight: 700;
-  border: 1px solid lightgray;
-  padding: 1rem 1.2rem;
-  border-radius: 50%;
-  background-color: lightgray;
-}
-#sp1 h2{
-  color: #1d2a34;
-  font-size: 1.2rem;
-  font-weight: 700;
+.logo_style span {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
   padding: 1rem 0;
-}
-.sec9{
-  display: flex;
-  gap: 1rem;
-}
-.sec9a{
-  width: 30%;
-  padding: 5% 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.sec9a h1{
-  color: #1d2a34;
-  font-size: 3rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  line-height: 1em;
-  margin: 1rem 0;
-}
-.sec9a p{
-  color: #1d2a34;
-  font-size: 1.2rem;
-  font-weight: 500;
-  opacity: 0.7;
-}
-.sec9b{
-  width: 70%;
-  display: flex;
-  gap: 1%;
-}
-.sec9b img{
-  width: 80%;
-  border-radius: 1.5rem;
-  object-fit: cover;
 }
 </style>
