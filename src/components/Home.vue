@@ -23,19 +23,19 @@
                   class="clone-main-menu runic-clone-mobile-menu main-menu"
                 >
                   <li class="menu-item">
-                    <router-link to="/community">Community</router-link>
+                    <router-link to="/community">Home</router-link>
                   </li>
                   <li class="menu-item">
-                    <router-link to="/explore">Explore</router-link>
+                    <router-link to="/explore">Services</router-link>
                   </li>
                   <li class="menu-item">
-                    <router-link to="/features">Features</router-link>
-                  </li>
-                  <li class="menu-item">
-                    <router-link to="/blog">Blog</router-link>
+                    <router-link to="/features">Our Services </router-link>
                   </li>
                   <li class="menu-item">
                     <router-link to="/about">About</router-link>
+                  </li>
+                  <li class="menu-item">
+                    <router-link to="/blog">Blog</router-link>
                   </li>
                 </ul>
               </div>
@@ -95,7 +95,7 @@
                   </div>
                 </div>
                 <div class="box-text">
-                  <h3 class="box-title">graphics design</h3>
+                  <h3 class="box-title">Graphics Design</h3>
                   <!-- <a href="#" class="box-link">Learn more</a> -->
                 </div>
               </div>
@@ -178,16 +178,36 @@
         <div class="marquee-section">
           <div class="marquee-content bg-dark">
             <div class="marquee-wrap marquee-text">
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
-              <div class="marquee-toleft">Dream Big, Create with Passion, .&nbsp;</div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
+              <div class="marquee-toleft">
+                Dream Big, Create with Passion, .&nbsp;
+              </div>
             </div>
           </div>
         </div>
@@ -205,13 +225,13 @@
                   <a href="#tab1" class="tab-link s-current">
                     <span class="tabs-width"></span>
                     <span class="tabs-border"></span>
-                    <span>Graphic</span>
+                    <span>TECHNOLOGY</span>
                   </a>
                   <a href="#tab2" class="tab-link">
-                    <span>Digital</span>
+                    <span>BRANDING</span>
                   </a>
                   <a href="#tab3" class="tab-link">
-                    <span>Media</span>
+                    <span>MARKETING</span>
                   </a>
                 </div>
               </div>
@@ -222,14 +242,15 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">01</div>
-                          <div class="tabs-category">Graphic</div>
+                          <div class="tabs-category">TECHNOLOGY</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Logo – Identity</h3>
+                          <h3 class="tabs-title">Web Applications</h3>
                           <div class="tabs-desc">
-                            Lorem ipsum dolor sit amet consectetur adipiscing
-                            elit nascetur curae senectus, dui arcu eu convallis
-                            fringilla primis tincidunt neque ac dictum
+                            We create powerful and scalable web applications
+                            designed to provide outstanding user experiences,
+                            customized to meet your business needs and support
+                            sustainable growth.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -251,15 +272,15 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">02</div>
-                          <div class="tabs-category">Graphic</div>
+                          <div class="tabs-category">TECHNOLOGY</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Business & Advertising</h3>
+                          <h3 class="tabs-title">Web Development</h3>
                           <div class="tabs-desc">
-                            Curae risus sociis ultricies scelerisque libero
-                            malesuada primis, ligula aptent morbi enim nisi
-                            aenean blandit eu, placerat feugiat sagittis
-                            volutpat
+                            We develop dynamic and scalable websites designed to
+                            deliver exceptional user experiences, tailored to
+                            align with your business goals and drive long-term
+                            success.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -281,14 +302,17 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">03</div>
-                          <div class="tabs-category">Web & App</div>
+                          <div class="tabs-category">TECHNOLOGY</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Web & App</h3>
+                          <h3 class="tabs-title">
+                            Mobile Application Development
+                          </h3>
                           <div class="tabs-desc">
-                            Laoreet urna quis torquent tortor blandit auctor nam
-                            rhoncus ut fames, suscipit turpis vestibulum sem vel
-                            habitant lectus duis sagittis netus
+                            We design robust and scalable mobile applications
+                            that offer seamless user experiences, customized to
+                            meet your business objectives and foster long-term
+                            growth.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -312,14 +336,13 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">01</div>
-                          <div class="tabs-category">Digital</div>
+                          <div class="tabs-category">BRANDING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">print on demand</h3>
+                          <h3 class="tabs-title">UI and UX Design</h3>
                           <div class="tabs-desc">
-                            Laoreet urna quis torquent tortor blandit auctor nam
-                            rhoncus ut fames, suscipit turpis vestibulum sem vel
-                            habitant lectus duis sagittis netus
+                            We craft intuitive and engaging UI/UX designs that enhance user interactions, 
+                            tailored to reflect your business vision and drive lasting success.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -341,14 +364,13 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">02</div>
-                          <div class="tabs-category">Digital</div>
+                          <div class="tabs-category">BRANDING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">cost effective short runs</h3>
+                          <h3 class="tabs-title">Logo Design</h3>
                           <div class="tabs-desc">
-                            Lorem ipsum dolor sit amet consectetur adipiscing
-                            elit nascetur curae senectus, dui arcu eu convallis
-                            fringilla primis tincidunt neque ac dictum
+                            We create unique and impactful logo designs that capture your brand's essence, 
+                            leaving a lasting impression and elevating your business identity.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -365,20 +387,19 @@
                       </div>
                     </div>
                   </div>
+                  
                   <div class="tabs-container">
                     <div class="tabs-content clearfix">
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">03</div>
-                          <div class="tabs-category">Digital</div>
+                          <div class="tabs-category">BRANDING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">fast turnarounds</h3>
+                          <h3 class="tabs-title">Product Design</h3>
                           <div class="tabs-desc">
-                            Curae risus sociis ultricies scelerisque libero
-                            malesuada primis, ligula aptent morbi enim nisi
-                            aenean blandit eu, placerat feugiat sagittis
-                            volutpat
+                            Product design creating the entire user experience of a product, including its visual interface (UI), 
+                            usability (UX), and overall brand identity.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -402,15 +423,13 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">01</div>
-                          <div class="tabs-category">Media</div>
+                          <div class="tabs-category">MARKETING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Social Commerce</h3>
+                          <h3 class="tabs-title">Google Ads Management </h3>
                           <div class="tabs-desc">
-                            Curae risus sociis ultricies scelerisque libero
-                            malesuada primis, ligula aptent morbi enim nisi
-                            aenean blandit eu, placerat feugiat sagittis
-                            volutpat
+                            We craft targeted and compelling Google Ads campaigns that effectively communicate your brand's message, 
+                            drive engagement, and enhance your online visibility.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -432,14 +451,13 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">02</div>
-                          <div class="tabs-category">Media</div>
+                          <div class="tabs-category">MARKETING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Social Community</h3>
+                          <h3 class="tabs-title">SEO Services </h3>
                           <div class="tabs-desc">
-                            Laoreet urna quis torquent tortor blandit auctor nam
-                            rhoncus ut fames, suscipit turpis vestibulum sem vel
-                            habitant lectus duis sagittis netus
+                            We deliver tailored SEO strategies that boost your website's search engine ranking, 
+                            enhance online visibility, and drive targeted traffic to achieve your business goals.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -461,14 +479,13 @@
                       <div class="tabs-info col-md-6 col-sm-12">
                         <div class="tabs-top">
                           <div class="tabs-number">03</div>
-                          <div class="tabs-category">Media</div>
+                          <div class="tabs-category">MARKETING</div>
                         </div>
                         <div class="tabs-bottom">
-                          <h3 class="tabs-title">Social Publishing</h3>
+                          <h3 class="tabs-title">Digital Marketing</h3>
                           <div class="tabs-desc">
-                            Lorem ipsum dolor sit amet consectetur adipiscing
-                            elit nascetur curae senectus, dui arcu eu convallis
-                            fringilla primis tincidunt neque ac dictum
+                            We design comprehensive digital marketing strategies that elevate your brand's online presence, 
+                            engage your target audience, and drive measurable results.
                           </div>
                           <a href="#" class="button-arrow">
                             <span class="arrow-text">Learn more</span>
@@ -498,7 +515,8 @@
                   Explore the World of Mitoms
                 </div>
                 <div class="text-desc text-left mobile-center">
-                  Explore Mitoms' work in web, software, and mobile development, and see how we've helped businesses succeed.
+                  Explore Mitoms' work in web, software, and mobile development,
+                  and see how we've helped businesses succeed.
                 </div>
                 <a href="#" class="button-arrow">
                   <span class="arrow-text">Learn more</span>
@@ -514,11 +532,14 @@
                           <img src="/assets/images/world1.jpg" alt="img" />
                         </div>
                         <div class="world-content">
-                          <h4 class="world-title">Project Name: Sourcing Desk</h4>
+                          <h4 class="world-title">
+                            Project Name: Sourcing Desk
+                          </h4>
                           <div class="world-desc">
-                            <i>Domain: Human Resource</i> <br>
-                            Sourcing Desk integrates Laravel and Vue.js with Inertia.js for a streamlined, 
-                            efficient HR software solution.
+                            <i>Domain: Human Resource</i> <br />
+                            Sourcing Desk integrates Laravel and Vue.js with
+                            Inertia.js for a streamlined, efficient HR software
+                            solution.
                           </div>
                         </div>
                         <a class="world-detail-link" href="#"></a>
@@ -530,11 +551,12 @@
                           <img src="/assets/images/world2.jpg" alt="img" />
                         </div>
                         <div class="world-content">
-                          <h4 class="world-title">Nullam rhoncu</h4>
+                          <h4 class="world-title">Project Name: MVTL</h4>
                           <div class="world-desc">
-                            Enim penatibus venenatis ligula iaculis interdum
-                            risus lacinia, potenti curabitur urna turpis nec
-                            tempus nulla
+                            <i>Domain: Logistics</i> <br>
+                            MVTL is an advanced digital platform for logistics, 
+                            leveraging Laravel and Vue.js to streamline processes with precise, 
+                            user-friendly interactions and seamless API integrations.
                           </div>
                         </div>
                         <a class="world-detail-link" href="#"></a>
@@ -546,11 +568,11 @@
                           <img src="/assets/images/world3.jpg" alt="img" />
                         </div>
                         <div class="world-content">
-                          <h4 class="world-title">Taciti rutrum</h4>
+                          <h4 class="world-title">Project Name: AVANIKA</h4>
                           <div class="world-desc">
-                            Justo dui massa fusce metus nunc libero rhoncus
-                            torquent, iaculis fringilla ante aenean est
-                            vestibulum ornare.
+                            <i>URL: avanika.in</i> <br>
+                            AVANIKA is a responsive Vue.js website that ensures a smooth, 
+                            fast-loading user experience across all screen sizes.
                           </div>
                         </div>
                         <a class="world-detail-link" href="#"></a>
@@ -562,11 +584,10 @@
                           <img src="/assets/images/world4.jpg" alt="img" />
                         </div>
                         <div class="world-content">
-                          <h4 class="world-title">Habitant eros</h4>
+                          <h4 class="world-title">Project Name: BrawnyMechanics</h4>
                           <div class="world-desc">
-                            Nascetur auctor molestie gravida natoque turpis
-                            posuere, vivamus iaculis velit pharetra ad vulputate
-                            vel tempor.
+                            BrawnyMechanics enhances its vehicle repair services with a Vue.js and Laravel PHP web app, 
+                            featuring a robust client tracking system for seamless customer satisfaction.
                           </div>
                         </div>
                         <a class="world-detail-link" href="#"></a>
@@ -581,9 +602,9 @@
         <div class="zoom-section">
           <div class="zoom-content bg-dark">
             <div class="zoom-container">
-              <div class="text-opacity text-big">Our Office</div>
+              <div class="text-opacity text-big">Our Office <br> Visit Us at Mitoms Technologies </div>
               <div class="text-run text-big">
-                Lorem ipsum dolor sio malesuada.
+                We are located in Bangalore.
               </div>
             </div>
             <div class="zoom-wrap">
@@ -600,27 +621,27 @@
 </template>
 
 <script>
-import { initJQueryFunctions } from '@/assets/js/functions.js'; // Adjust the path
- 
+import { initJQueryFunctions } from "@/assets/js/functions.js"; // Adjust the path
+
 export default {
-  name: 'Home',
- 
+  name: "Home",
+
   mounted() {
     // Initialize jQuery on component mount
     this.initJQuery();
   },
- 
+
   beforeRouteUpdate(to, from, next) {
     // Re-initialize jQuery functions when the route changes
     this.initJQuery();
     next();
   },
- 
+
   methods: {
     initJQuery() {
-      initJQueryFunctions();  // Call the function that initializes jQuery functions
-    }
-  }
+      initJQueryFunctions(); // Call the function that initializes jQuery functions
+    },
+  },
 };
 </script>
 
